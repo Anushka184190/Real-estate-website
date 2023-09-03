@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Kanit" , "San-Serif";
+    background-color: white;
+  font-weight: 250;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section {
+    padding: 20px 0;
+  }
+nav{
+    background-color: #101136;
+    color: #fff;
+    height: 120px;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 40%;
+    margin: 10px;
+}
+.nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    display: block;
+    float: left;
+}
+.nav ul a:hover{
+    color: #cfcfcf;
+}
+header{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(images/house.jpeg);
+}
+.header-text{
+    color: #fff;
+    position: absolute; /* positioned realted to its div*/
+    top: 50%;
+    left: 50%;
+    width: 1140px;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+}
+.btn-full{
+    background-color: #909090;
+    padding: 2px 35px;
+    border-radius: 15px;
+}
+.btn-full:hover{
+    background-color: #b9b9b9;
+    padding: 2px 35px;
+    border-radius: 15px;
+    color: #000;
+}
+.btn-border{
+    border: 1px solid #c0c0c0;
+    border-radius: 15px;
+    padding: 2px 35px;
+}
+.btn-border:hover{
+    background-color: #cfcfcf;
+    color: #000;
+}
+.header-text p{
+    margin-bottom: 20px;
+}
+.section-search-around{
+    background-color: #efefef;
+}
+.section-search-around h2{
+    font-size: 150%;
+    color: #676767;
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.search{
+    text-align: center;
+    margin-top: 15px;
+}
+.section-search-around form select{
+    width: 200px;
+    height: 40px;
+        border-radius: 5px;
+}
+input[type="searchbutton"]
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box-search-around img{
+    height: 90px;
+    width: 70px;
+    float: left;
+    margin-top: 10px
+        
+}
+.box{
+     margin: 25px 5px;
+    border: 1px solid #999999;
+    padding: 10px;
+    box-shadow: 0 1px 8px 2px #b7b7b7;
+}
+.box-left{
+float: left;
+    margin-left: 2px;
+}
+.box-left a:link{
+color: #232323;
+    text-decoration: none;
+    font-weight: 300;
+    transition: color .5s;
+}
+.box-left a:hover{
+color: #2dada8;
+}
+.box-left h4{
+font-weight: 400;
+}
+.box-left p{
+font-size: 80%
+}
+.box:last-child .box-left{
+margin-left: 10px
+}
+.box-search-around{
+border-bottom: 1px solid #999999;
+}
+.box-search-around-2 p{
+  display: inline;
+    padding: -3 5px;
+    font-size: 70%;
+}
+.box-search-around-2 a:hover{
+   color: #2a85ad
+}
+.box-search-around-2{
+border-bottom: 1px solid transparent
+}
+.search-around-img {
+    text-align: center;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(images/family-3.jpeg);
+    box-shadow: 0 2px 10px #909090
+}
+.search-around-text{
+    position: absolute; /* positioned realted to its div*/
+    top: 180%;
+    left: 50%;
+    width: 1140px;
+    transform: translate(-50%, -50%);
+}
+.search-around-text h2{
+color: #e0e0e0;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px solid transparent
+}
+.section-home-loan img{
+height: 467px;
+    width: 30%;
+}
+form input[type="searchbutton"]{
+    border: 1px solid #c8c8c8;
+}
+.home-loan-text{
+float: right;
+    color: #efefef;
+    width: 70%;
+    background-color: #428fbf
+}
+.text-box-1{
+padding: 15px;
+    border-bottom: 1px solid #fff
+}
+.text-box-1 h4{
+font-weight: 300;
+    font-size: 120%;
+}
+.text-box-1 h3{
+font-weight: 500;
+    font-size: 150%
+}
+.text-box-2{
+  padding: 15px;
+}
+.text-box-2 h5{
+font-weight: 400;
+    font-size:100%;
+}
+.text-box-2 p{
+font-weight: 100;
+    font-size: 80%;
+    text-align: justify
+}
+.section-home-loan h2,
+.collection h2{
+text-align: center;
+    margin: 10px;
+    color: #676767;
+    font-size: 400;
+}
+.section-home-loan form label{
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 300;
+}
+.section-home-loan form input[type="text"],
+.section-home-loan form input[type="email"],
+.section-home-loan form input[type="mobile"],
+.section-home-loan form input[type="otp"],
+.section-home-loan form input[type="monthly-income"],
+.section-home-loan form input[type="loan"],
+select {
+  width: 100%;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid #c8c8c8;
+}
+.section-home-loan form input[type="submit"]
+{
+    padding: 5px 40px;
+    background-color: #428fbf;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase
+}
+.section-home-loan form input[type="submit"]:hover{
+   background-color: #47a3b4;
+    border: 1px solid #fff;
+}
+.pic{
+   text-align: center;
+    margin: 4px;
+}
+.pic img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    border-radius: 50%;
+    transition: transform .5s;
+    opacity: .8;
+    margin: 5px auto;
+}
+.pic img:hover{
+    transform: scale(1.05);
+  opacity: 1;
+}
+.pic a {
+  text-decoration: none;
+    color: #676767;
+    font-weight: 300;
+}
+.pic a p{
+   font-size: 80%;
+}
+.btn-family{
+    border: 1px solid #686868;
+    padding: 2px 10px;
+    border-radius: 15px;
+    background-color: #dcdcdc;
+    transition: border 2s;
+}
+.btn-family:hover{
+   background-color: #efefef;
+    color: black;
+    border: 1px solid transparent;
+}
+.collection-2-h2{
+   color: #898989;
+   text-align: center;
+   margin-bottom: 15px;
+   margin-top: 10px;
+}
+.section-home-loan h2:after,
+.collection-2-h2:after
+{
+    display: block;
+    content: "";
+    width: 100px;
+    background-color: #297aa3;
+    height: 2px;
+    margin: 0 auto;
+}
+.collection-2 img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.collection-2 a{
+    text-decoration: none;
+    color: #101139;
+    font-weight: 300;
+    font-size: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.collection-2 a:hover{
+    color: #2c2e88;
+}
+.recently-added-h2{
+    color: #676767;
+   margin-bottom: 50px;
+   text-align: center;
+   border-bottom: 1px solid #b9b9b9;
+}
+.collection-1 h2{
+    color: #676767;
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 1px solid #b9b9b9;
+}
+.add-box img{
+    height: 200px;
+    width: 100%;
+    transition: transform 1s;
+    border: 1px solid #000;
+}
+.add-box img:hover{
+    height: 200px;
+    width: 100%;
+    transform: scale(1.1);
+}
+.add-box-1 h4{
+    font-weight: 300;
+}
+.add-box-1 p{
+    font-weight: 200;
+    font-size: 80%;
+}
+.add-box-1 h5{
+    font-weight: 300;
+}
+.add-box-1{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #999999;
+}
+.add-box-2{
+    padding-top: 10px;
+}
+.add-box-2 p{
+    font-size: 70%;
+    display: inline-block;
+}
+.add-box-2 a{
+    float: right;
+    text-decoration: none;
+    border: 1px solid #47a3b4;
+    padding: 2px 5px;
+    color: #297aa3;
+}
+.add-box-2 a:hover{
+    background-color: #47a3b4;
+    color: #fff;
+}
+.play-store{
+    margin-top: 25px;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 5px #565656;
+}
+.play-store h3{
+    font-weight: 300;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-size: 150%;
+}
+.play-store h4{
+    font-weight: 300;
+    color: #297aa3;
+    padding: 10px;
+    font-size: 120%;
+    margin: 0 15px;
+}
+.play-store a{
+    border: 1px solid rgb(49, 49, 49);
+    color: #fff;
+    background-color: #373737;
+    padding: 10px;
+    float: right;
+    margin: 10px;
+    transition: back-ground color .5s;
+}
+.play-store a:hover{
+    background-color: #000;
+}
+.Properties{
+    margin: 55px 0;
+}
+.Properties img{
+    width: auto;
+    height: 150px;
+    margin: 10px 110px;
+    display: block;
+}
+.Properties-box{
+    text-align: center;
+}
+.big{
+    font-size: 120%;
+    font-weight: 400;
+}
+.small{
+    font-weight: 100;
+    font-size: 70%;
+}
+.forum h2{
+    color: #2b2b2b;
+   margin-bottom: 50px;
+   text-align: left;
+   font-weight: 300;
+    font-size: 25px;
+}
+.forum h2:after{
+    display: block;
+    content: "";
+    width: 50px;
+    background-color: #2c2e88;
+    height: 2px;
+}
+.forum-box{
+  float: left;
+margin-right: 15px;
+transition: box-shadow 2s, border 3s;
+}
+.forum-2{
+    float: left;
+    width: 60%;
+    color: #454545;
+}
+.forum-1{
+    width: 40%;
+    float: left;
+}
+.forum-2 h3{
+    font-weight: 400;
+}
+.forum-2 a{
+    padding: 2px 15px;
+    border: 1px solid rgb(136, 136, 136);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.forum-2 a:hover{
+    color: white;
+    background-color:#1b6a86 ;
+    border-radius: #fff;
+}
+.forum-box:hover{
+    border: 1px solid #999999;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px #b9b9b9;
+}
+.forum-last{
+    background-color: #f5f5f5;
+}
+.forum-last {
+font-size: 80%;
+    font-weight: 200;
+    color: #000;
+    padding: 15px 5px;
+    text-align: justify
+}
+.forum-last a {
+    text-decoration: none;
+    color: #000;
+}
+.forum-last a:hover{
+color: #297aa3;
+}
+.last-1{
+ margin: 10px 0;
+}
+.last-2{
+  margin: 10px 0;
+}
+.last-2 h5{
+ font-weight: 400;
+    text-transform: uppercase;
+    font-size: 120%;
+}
+footer{
+background-color: #454545;
+    color: #cbcb57;
+    padding: 25px 0;
+    text-transform: uppercase;
+    margin-top: -30px;
+}
+footer a{
+text-decoration: none;
+    color: #cbcb57;
+    font-size: 80%;
+    
+}
+footer ul{
+ list-style: none
+}
+footer li{
+padding: 2px 0;
+}
+footer h2{
+ font-weight: 300;
+    font-size: 25px;
+}
+.icon-footer a{
+   padding: 5px;
+}
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+  opacity: 0; /*gyab*/
+  animation-duration: 2s;
+}
+.js--wp-4{
+  animation-duration: 1s;
+}
+.js--wp-1.animated,
+.js--wp-2.animated ,
+.js--wp-3.animated
+{
+  /*dono same time p both r parents---> no space bta classses*/
+  opacity: 1;
+}
